@@ -88,8 +88,8 @@ export default function ContactPage() {
         <div className="space-y-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Email Section */}
-            <div className="text-center">
-              <Mail className="h-5 w-5 text-blue-600 mx-auto mb-2" />
+            <div className="text-left">
+              <Mail className="h-5 w-5 mb-2" style={{ color: "#1D315F" }} />
               <h3
                 style={{
                   fontFamily: "Urbanist",
@@ -97,7 +97,7 @@ export default function ContactPage() {
                   fontSize: "20px",
                   lineHeight: "30px",
                   letterSpacing: "0%",
-                  color: "#101828",
+                  color: "#1D315F",
                 }}
                 className="text-xl font-semibold"
               >
@@ -133,8 +133,8 @@ export default function ContactPage() {
             </div>
 
             {/* Phone Section */}
-            <div className="text-center">
-              <Phone className="h-5 w-5 text-blue-600 mx-auto mb-2" />
+            <div className="text-left">
+              <Phone className="h-5 w-5 mb-2" style={{ color: "#1D315F" }} />
               <h3
                 style={{
                   fontFamily: "Urbanist",
@@ -142,7 +142,7 @@ export default function ContactPage() {
                   fontSize: "20px",
                   lineHeight: "30px",
                   letterSpacing: "0%",
-                  color: "#101828",
+                  color: "#1D315F",
                 }}
                 className="text-xl font-semibold"
               >
@@ -179,8 +179,8 @@ export default function ContactPage() {
           </div>
 
           {/* Office Section */}
-          <div className="text-center">
-            <MapPin className="h-5 w-5 text-blue-600 mx-auto mb-2" />
+          <div className="text-left">
+            <MapPin className="h-5 w-5 mb-2" style={{ color: "#1D315F" }} />
             <h3
               style={{
                 fontFamily: "Urbanist",
@@ -188,7 +188,7 @@ export default function ContactPage() {
                 fontSize: "20px",
                 lineHeight: "30px",
                 letterSpacing: "0%",
-                color: "#101828",
+                color: "#1D315F",
               }}
               className="text-xl font-semibold"
             >
