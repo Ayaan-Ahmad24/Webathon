@@ -1,3 +1,5 @@
+
+
 import { Phone, Twitter, Linkedin, Facebook, Github } from "lucide-react";
 
 export default function Footer() {
@@ -119,8 +121,22 @@ export default function Footer() {
       </div>
 
       {/* Background Text */}
-      <div className="bottom-0 left-0 w-full pointer-events-none opacity-5 text-[20vw] font-light tracking-wider text-center overflow-hidden ">
-        <div className="whitespace-nowrap text-gray-500">cache logic</div>
+      <div className="bottom-0 left-0 w-full pointer-events-none opacity-10 text-[20vw] font-light tracking-wider text-center overflow-hidden">
+        <div
+          style={{
+            fontFamily: "Urbanist",
+            fontWeight: 400,
+            fontStyle: "italic",
+            fontSize: "257.1px",
+            lineHeight: "471.36px",
+            letterSpacing: "-2%",
+            textTransform: "lowercase",
+            color: "white",
+          }}
+          className="whitespace-nowrap"
+        >
+          cache logic
+        </div>
       </div>
     </footer>
   );
